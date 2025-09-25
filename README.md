@@ -23,7 +23,6 @@ Learning cybersecurity and networking concepts through hands-on learning and doc
 
 ```
 ├── overthewire/bandit/          # Bandit wargame solutions and writeups
-├── skills-matrix.md             # Skills acquired and proficiency levels  
 ├── learning-log.md              # Daily progress and reflections
 └── resources.md                 # Useful resources and references
 ```
