@@ -3,68 +3,43 @@
 ## Challenge Information
 - **Level**: 2
 - **Date Completed**: 25-Sep-2025
-- **Time Spent**: 
+- **Time Spent**: 10 minutes
 - **Connection**: `ssh bandit2@bandit.labs.overthewire.org -p 2220`
 
 ## Level Goal
-- The password for the next level is stored in a file called `--spaces in this filename--` located in the home directory
+- The password for the next level is stored in a file called `--spaces in this filename--` located in the home directory.
 
 ## Analysis
-### What I Know:
-- [List what information you have to start with]
-- [Any hints or clues provided]
-
-### What I Need to Find:
-- [What you're looking for - password, file, etc.]
+- Password for next level is in file: `--spaces in this filename--`.
+- Can't use regular old `cat` to view file contents because of spaces in the filename, called a continuous file.
 
 ## Thought Process
-### First Attempts:
-1. [Document your initial approach]
-2. [Commands you tried first]
-3. [Any dead ends or mistakes]
-## Solution
+##### First Attempts:
+1. Used `ls -la` to view directory contents and find out which type of file is `--spaces in this filename--`.
+2. Tried to use `cat "--spaces in this filename--"` and `cat --spaces\ in\ this\ filename--`
 
+## Solution
+1. Went into `cat --help` and in the page it read: `With no FILE, or when FILE is -, read standard input.`
+2. Used `cat < "--spaces in this filename--"` to view file contents through input redirection.
 
 ### Commands Used:
 ```bash
-# Step 1: [Explanation]
-command1
+# Step 1: [View Directory Contents]
+ls -la 
 
-# Step 2: [Explanation]  
-command2
-
-# Final command that revealed the password:
-final_command
+# Step 2: [View continuous file contents]  
+cat < "--spaces in this filename--"
 ```
 ### Password: 
 ```
-[PASSWORD HERE]
+MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 ```
 ## Screenshots
-
+![[level-2-completed.png]]
 
 ## Key Learnings
-### New Commands/Concepts:
-- **`command1`**: [What it does and syntax]
-- **`command2`**: [What it does and syntax]
-- **Concept**: [Any new security/Linux concept learned]
-
-### Linux/Security Applications:
-- [How this applies to real-world scenarios]
-- [Security implications of the vulnerabilities shown]
-- [Best practices highlighted by this challenge]
-
-## Real-World Applications
-- [How might an attacker use these techniques?]
-- [How would you defend against this in production?]
-- [What tools/monitoring would detect this activity?]
-
-## Notes & Observations
-- [Any interesting observations]
-- [Alternative solutions you discovered]
-- [Connections to previous levels]
+##### New Concept:
+- Use input redirection `<` to view continuous file contents (files with spaces)
 
 ## References & Resources
-- [OverTheWire Level Page](http://overthewire.org/wargames/bandit/bandit{{LEVEL_NUMBER}}.html)
-- [Man pages consulted]
-- [External resources used]
+- https://overthewire.org/wargames/bandit/bandit3.html

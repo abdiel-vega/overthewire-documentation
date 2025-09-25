@@ -1,7 +1,4 @@
-## Challenge Information
-- **Level**: 0
-- **Date Completed**: 24-Sep-2025
-- **Time Spent**: Like 1 minute
+## Connecting to Server through SSH
 - **Connection**: `ssh bandit0@bandit.labs.overthewire.org -p 2220`
 
 ## Level Goal
