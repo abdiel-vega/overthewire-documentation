@@ -2,7 +2,7 @@
 
 ## Challenge Information
 - **Level**: 0
-- **Date Completed**: 25-Sep-2025
+- **Date Completed**: Sep 25, 2025
 - **Time Spent**: Like 1 minute
 - **Connection**: `ssh bandit0@bandit.labs.overthewire.org -p 2220`
 

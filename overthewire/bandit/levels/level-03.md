@@ -2,8 +2,8 @@
 
 ## Challenge Information
 - **Level**: 3
-- **Date Completed**: 25-Sep-2025
-- **Time Spent**: 
+- **Date Completed**: Sep 25, 2025
+- **Time Spent**: 5 minutes
 - **Connection**: `ssh bandit3@bandit.labs.overthewire.org -p 2220`
 
 ## Level Goal
