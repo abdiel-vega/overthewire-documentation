@@ -22,8 +22,16 @@ Learning cybersecurity and networking concepts through hands-on learning and doc
 ## 📁 Repository Structure
 
 ```
-├── overthewire/bandit/          # Bandit wargame solutions and writeups
-├── learning-log.md              # Daily progress and reflections
+obsidian.
+├── overthewire/
+│   └── bandit/
+│       ├── assets/
+│       │   └── screenshots/     # Documentation screenshots
+│       ├── lab-setup/           # Virtual Machine setup
+│       ├── levels/              # Level documentation
+│       └── scripts/             # Scripts used
+├── learning-log.md              # Daily progress and learning notes
+├── README.md
 └── resources.md                 # Useful resources and references
 ```
 
