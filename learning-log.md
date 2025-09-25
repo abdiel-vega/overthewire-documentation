@@ -37,3 +37,14 @@
 - `git`: Clone repositories and manage code
 - `python3`: Scripting and automation
 - `gcc/make`: Compile C programs
+
+# Concepts
+
+##### Secure Shell Protocol (SSH Protocol)
+- The **Secure Shell Protocol (SSH Protocol)** is a cryptographic network protocol for operating network services securely over an unsecured network. Its most notable applications are remote login and command-line execution.
+- SSH was designed for Unix-like operating systems as a replacement for Telnet and unsecured remote Unix shell protocols, such as the Berkeley Remote Shell (rsh) and the related rlogin and rexec protocols, which all use insecure, plaintext methods of authentication, such as passwords.
+- Since mechanisms like Telnet and Remote Shell are designed to access and operate remote computers, sending the authentication tokens (e.g. username and password) for this access to these computers across a public network in an unsecured way poses a great risk of third parties obtaining the password and achieving the same level of access to the remote system as the telnet user. Secure Shell mitigates this risk through the use of encryption mechanisms that are intended to hide the contents of the transmission from an observer, even if the observer has access to the entire data stream.
+> https://en.wikipedia.org/wiki/Secure_Shell
+
+##### 
+

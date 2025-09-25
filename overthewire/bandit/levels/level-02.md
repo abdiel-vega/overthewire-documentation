@@ -1,13 +1,13 @@
-# Bandit Level {{LEVEL_NUMBER}}
+# Bandit Level 2
 
 ## Challenge Information
-- **Level**: {{LEVEL_NUMBER}}
-- **Date Completed**: {{date:YYYY-MM-DD}}
-- **Time Spent**: [X minutes/hours]
-- **Connection**: `ssh bandit{{LEVEL_NUMBER}}@bandit.labs.overthewire.org -p 2220`
+- **Level**: 2
+- **Date Completed**: 25-Sep-2025
+- **Time Spent**: 
+- **Connection**: `ssh bandit2@bandit.labs.overthewire.org -p 2220`
 
 ## Level Goal
-[Copy the exact objective from OverTheWire]
+- The password for the next level is stored in a file called `--spaces in this filename--` located in the home directory
 
 ## Analysis
 ### What I Know:

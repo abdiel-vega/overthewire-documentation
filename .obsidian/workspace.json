@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "overthewire/bandit/levels/level-00.md",
+                "file": "overthewire/bandit/levels/level-02.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "level-00"
+              "title": "level-02"
             }
           }
         ]
@@ -200,10 +200,17 @@
   },
   "active": "df1d52ff86648c1c",
   "lastOpenFiles": [
+    "overthewire/bandit/doc-template.md",
+    "overthewire/bandit/levels/level-01.md",
+    "overthewire/bandit/levels/level-02.md",
+    "overthewire/bandit/levels/level-00.md",
+    "overthewire/bandit/levels/Connecting to SSH Server.md",
+    "overthewire/bandit/assets/screenshots/level-1-completed.png",
+    "overthewire/bandit/assets/screenshots/level-0-completion.png",
+    "resources.md",
+    "learning-log.md",
     "overthewire/bandit/assets/screenshots/lvl0-screenshot.png",
     "Pasted image 20250924233802.png",
-    "overthewire/bandit/levels/level-00.md",
-    "learning-log.md",
     "overthewire/bandit/lab-setup/Ubuntu 24.04.3 LTS - VirtualBox.md",
     "overthewire/bandit/lab-setup"
   ]
