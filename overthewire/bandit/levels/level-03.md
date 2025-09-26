@@ -7,6 +7,7 @@
 - **Connection**: `ssh bandit3@bandit.labs.overthewire.org -p 2220`
 
 ## Level Goal
+
 The password for the next level is stored in a hidden file in the **inhere** directory.
 
 ## Analysis

@@ -7,7 +7,8 @@
 - **Connection**: `ssh bandit2@bandit.labs.overthewire.org -p 2220`
 
 ## Level Goal
-- The password for the next level is stored in a file called `--spaces in this filename--` located in the home directory.
+
+The password for the next level is stored in a file called `--spaces in this filename--` located in the home directory.
 
 ## Analysis
 - Password for next level is in file: `--spaces in this filename--`.

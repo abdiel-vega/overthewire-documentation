@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "overthewire/bandit/levels/Connecting to Server.md",
+                "file": "overthewire/bandit/levels/level-06.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Connecting to Server"
+              "title": "level-06"
             }
           }
         ]
@@ -200,16 +200,19 @@
   },
   "active": "4acdf1da1e7ff5c6",
   "lastOpenFiles": [
-    "learning-log.md",
-    "overthewire/bandit/levels/level-04.md",
-    "overthewire/bandit/levels/level-03.md",
     "overthewire/bandit/doc-template.md",
-    "overthewire/bandit/assets/screenshots/level-4-completed.png",
-    "overthewire/bandit/assets/screenshots/passwd-in-file08.png",
+    "overthewire/bandit/levels/level-05.md",
+    "overthewire/bandit/levels/level-06.md",
+    "overthewire/bandit/assets/level-5-completed.png",
     "overthewire/bandit/levels/Connecting to Server.md",
     "overthewire/bandit/levels/level-00.md",
     "overthewire/bandit/levels/level-01.md",
     "overthewire/bandit/levels/level-02.md",
+    "overthewire/bandit/levels/level-03.md",
+    "overthewire/bandit/levels/level-04.md",
+    "learning-log.md",
+    "overthewire/bandit/assets/screenshots/level-4-completed.png",
+    "overthewire/bandit/assets/screenshots/passwd-in-file08.png",
     "overthewire/bandit/assets/screenshots/level-3-completed.png",
     "overthewire/bandit/assets/screenshots/level-2-completed.png",
     "Pasted image 20250925190129.png",
