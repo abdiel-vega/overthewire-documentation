@@ -32,7 +32,7 @@ ls
 # Step 2: [View file contents]  
 cat ./-
 ```
-### Password: 
+### Next Level Password: 
 ```
 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 ```

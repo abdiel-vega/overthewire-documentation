@@ -29,7 +29,7 @@ ls -la
 # Step 3: [View hidden file contents]
 cat ...Hiding-From-You
 ```
-### Password: 
+### Next Level Password: 
 ```
 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 ```

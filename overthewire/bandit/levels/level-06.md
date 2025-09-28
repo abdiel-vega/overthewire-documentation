@@ -2,8 +2,8 @@
 
 ## Challenge Information
 - **Level**: 6
-- **Date Completed**: ...
-- **Time Spent**: ...
+- **Date Completed**: Sep 28, 2025
+- **Time Spent**: 15 minutes
 - **Connection**: `ssh bandit6@bandit.labs.overthewire.org -p 2220`
 
 ## Level Goal
@@ -15,61 +15,35 @@ The password for the next level is stored **somewhere on the server** and has 
 - 33 bytes in size
 
 ## Analysis
-### What I Know:
-- [List what information you have to start with]
-- [Any hints or clues provided]
-
-### What I Need to Find:
-- [What you're looking for - password, file, etc.]
+- I need to find the password file somewhere on the server.
+- The file is owned by `bandit7` user and `bandit6` group.
+- The file is 33 bytes in size.
 
 ## Thought Process
 ##### First Attempts:
-1. [Document your initial approach]
-2. [Commands you tried first]
-3. [Any dead ends or mistakes]
+1. Used `ls -la` but no files appear.
+2. Used `find / -user bandit7 -group bandit6 -size 33c` to locate the file in the server but outputted a lot of filed with denied access.
 ## Solution
-1. 
+1. Used `find / -user bandit7 -group bandit6 -size 33c 2>/dev/null` to redirect any denied directories and files to the `/dev/null` file to see a clean output.
 
 ### Commands Used:
 ```bash
-# Step 1: [Explanation]
-command1
+# Step 1: [View all contents of current directory]
+ls -la
 
-# Step 2: [Explanation]  
-command2
-
-# Final command that revealed the password:
-final_command
+# Step 2: [Find specific file owned by bandit7 user and bandit6 group of 33 bytes, while redirecting any denied access files/directories to black hole]
+find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
 ```
-### Password: 
+### Next Level Password: 
 ```
-[PASSWORD HERE]
+morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 ```
 ## Screenshots
-
+![[level-6-completed.png]]
 
 ## Key Learnings
 ##### New Commands/Concepts:
-- **`command1`**: [What it does and syntax]
-- **`command2`**: [What it does and syntax]
-- **Concept**: [Any new security/Linux concept learned]
-
-##### Linux/Security Applications:
-- [How this applies to real-world scenarios]
-- [Security implications of the vulnerabilities shown]
-- [Best practices highlighted by this challenge]
-
-##### Real-World Applications
-- [How might an attacker use these techniques?]
-- [How would you defend against this in production?]
-- [What tools/monitoring would detect this activity?]
-
-## Notes & Observations
-- [Any interesting observations]
-- [Alternative solutions you discovered]
-- [Connections to previous levels]
+- Add `2>/dev/null` to the end of a command to redirect all errors and permission denial output to the trash basically.
 
 ## References & Resources
-- [OverTheWire Level Page](http://overthewire.org/wargames/bandit/bandit{{LEVEL_NUMBER}}.html)
-- [Man pages consulted]
-- [External resources used]
+- https://overthewire.org/wargames/bandit/bandit7.html

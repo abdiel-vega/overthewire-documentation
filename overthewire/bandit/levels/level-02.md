@@ -31,7 +31,7 @@ ls -la
 # Step 2: [View continuous file contents]  
 cat < "--spaces in this filename--"
 ```
-### Password: 
+### Next Level Password: 
 ```
 MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 ```

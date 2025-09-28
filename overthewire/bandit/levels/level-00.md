@@ -25,7 +25,7 @@ ls
 # Step 2: [View file contents]  
 cat readme
 ```
-### Password: 
+### Next Level Password: 
 ```
 ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 ```

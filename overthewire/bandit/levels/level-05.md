@@ -34,7 +34,7 @@ ls -R
 # Step 3: [Find file with size of 1033 bytes]  
 find -size 1033c
 ```
-### Password: 
+### Next Level Password: 
 ```
 HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 ```

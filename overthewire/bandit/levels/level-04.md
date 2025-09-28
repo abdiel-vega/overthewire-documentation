@@ -34,7 +34,7 @@ ls -la
 # Step 3: [View file contents one by one]
 less ./*
 ```
-### Password: 
+### Next Level Password: 
 ```
 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 ```

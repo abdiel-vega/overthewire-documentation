@@ -1,21 +1,18 @@
-# Bandit Level {{LEVEL_NUMBER}}
+# Bandit Level 8
 
 ## Challenge Information
-- **Level**: {{LEVEL_NUMBER}}
-- **Date Completed**: {{date:YYYY-MM-DD}}
-- **Time Spent**: [X minutes/hours]
-- **Connection**: `ssh bandit{{LEVEL_NUMBER}}@bandit.labs.overthewire.org -p 2220`
+- **Level**: 8
+- **Date Completed**: Sep 28, 2025
+- **Time Spent**: 
+- **Connection**: `ssh bandit8@bandit.labs.overthewire.org -p 2220`
 
 ## Level Goal
-[Copy the exact objective from OverTheWire]
+
+The password for the next level is stored in the file **data.txt** and is the only line of text that occurs only once
 
 ## Analysis
-### What I Know:
-- [List what information you have to start with]
-- [Any hints or clues provided]
-
-### What I Need to Find:
-- [What you're looking for - password, file, etc.]
+- The password is in the `data.txt` file and is the only line of text that occurs only once.
+- The text file is full of random characters.
 
 ## Thought Process
 ##### First Attempts:
