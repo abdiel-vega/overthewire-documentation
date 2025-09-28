@@ -3,7 +3,7 @@
 ## Challenge Information
 - **Level**: 8
 - **Date Completed**: Sep 28, 2025
-- **Time Spent**: 
+- **Time Spent**: 20 minutes
 - **Connection**: `ssh bandit8@bandit.labs.overthewire.org -p 2220`
 
 ## Level Goal
@@ -13,55 +13,34 @@ The password for the next level is stored in the file **data.txt** and is the 
 ## Analysis
 - The password is in the `data.txt` file and is the only line of text that occurs only once.
 - The text file is full of random characters.
+- `uniq` command removes duplicate lines from a file but ignores duplicate lines if they are not adjacent.
 
 ## Thought Process
 ##### First Attempts:
-1. [Document your initial approach]
-2. [Commands you tried first]
-3. [Any dead ends or mistakes]
+1. Tried to do a number of combinations of the `sort`and `uniq`command with different flags.
 ## Solution
-1. 
+1. Performed `sort` command to sort all duplicate lines adjacent to each other.
+2. Used the pipe operator `|` to perform a `uniq -c` command after the sort to show how many times each line appears.
+3. The output was a bunch of different lines with 10 occurrences each, except for one which is the password.
 
 ### Commands Used:
 ```bash
-# Step 1: [Explanation]
-command1
+# Step 1: [View contents of current directory]
+ls
 
-# Step 2: [Explanation]  
-command2
-
-# Final command that revealed the password:
-final_command
+# Step 2: [View file contents | sort file contents | remove duplicate lines and view each duplicate lines count]  
+cat data.txt | sort | uniq -c
 ```
 ### Next Level Password: 
 ```
-[PASSWORD HERE]
+4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
 ```
 ## Screenshots
-
+![[level-8-completed.png]]
 
 ## Key Learnings
 ##### New Commands/Concepts:
-- **`command1`**: [What it does and syntax]
-- **`command2`**: [What it does and syntax]
-- **Concept**: [Any new security/Linux concept learned]
-
-##### Linux/Security Applications:
-- [How this applies to real-world scenarios]
-- [Security implications of the vulnerabilities shown]
-- [Best practices highlighted by this challenge]
-
-##### Real-World Applications
-- [How might an attacker use these techniques?]
-- [How would you defend against this in production?]
-- [What tools/monitoring would detect this activity?]
-
-## Notes & Observations
-- [Any interesting observations]
-- [Alternative solutions you discovered]
-- [Connections to previous levels]
+- `cat [file] | sort | uniq -c` for sorting text in a file and finding unique lines of text in a file.
 
 ## References & Resources
-- [OverTheWire Level Page](http://overthewire.org/wargames/bandit/bandit{{LEVEL_NUMBER}}.html)
-- [Man pages consulted]
-- [External resources used]
+- https://overthewire.org/wargames/bandit/bandit9.html
