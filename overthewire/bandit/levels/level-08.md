@@ -8,7 +8,7 @@
 
 ## Level Goal
 
-The password for the next level is stored in the file **data.txt** and is the only line of text that occurs only once
+The password for the next level is stored in the file **data.txt** and is the only line of text that occurs only once.
 
 ## Analysis
 - The password is in the `data.txt` file and is the only line of text that occurs only once.

@@ -9,8 +9,8 @@ Learning cybersecurity and networking concepts through hands-on learning and doc
 
 ### OverTheWire Bandit
 - **Status**: In Progress
-- **Completed Levels**: 0/26
-- **Current Level**: Level 0
+- **Completed Levels**: 12/26
+- **Current Level**: Level 13
 - **Skills Focus**: Linux fundamentals, command line proficiency, basic security concepts
 
 ## 🛠️ Tools & Environment

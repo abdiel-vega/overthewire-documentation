@@ -46,5 +46,13 @@
 - Since mechanisms like Telnet and Remote Shell are designed to access and operate remote computers, sending the authentication tokens (e.g. username and password) for this access to these computers across a public network in an unsecured way poses a great risk of third parties obtaining the password and achieving the same level of access to the remote system as the telnet user. Secure Shell mitigates this risk through the use of encryption mechanisms that are intended to hide the contents of the transmission from an observer, even if the observer has access to the entire data stream.
 > https://en.wikipedia.org/wiki/Secure_Shell
 
-##### 
+##### ROT13
+- **ROT13** is a simple letter substitution cipher that replaces a letter with the 13th letter after it in the Latin alphabet.
+- Using `tr` for ROT13 on Linux:
+	- `tr 'A-Za-z' 'N-ZA-Mn-za-m'`
+
+##### Hex Dump
+- In computing, a **hex dump** is a textual hexadecimal view (on screen or paper) of computer data, from memory or from a computer file or storage device. Use of a hex dump of data is usually done in the context of either debugging, reverse engineering or digital forensics.
+- In a **hex dump**, each byte (8 bits) is represented as a two-digit hexadecimal number. Hex dumps are commonly organized into rows of 8 or 16 bytes, sometimes separated by whitespaces. Some hex dumps have the hexadecimal memory address at the beginning. On systems where the conventional representation of data is octal, the equivalent is an octal dump.
+
 

@@ -2,8 +2,8 @@
 
 ## Challenge Information
 - **Level**: 9
-- **Date Completed**: Sep 25, 2025
-- **Time Spent**: 
+- **Date Completed**: Sep 28, 2025
+- **Time Spent**: 10 minutes
 - **Connection**: `ssh bandit9@bandit.labs.overthewire.org -p 2220`
 
 ## Level Goal
@@ -11,56 +11,33 @@
 The password for the next level is stored in the file **data.txt** in one of the few human-readable strings, preceded by several ‘=’ characters.
 
 ## Analysis
-- The password is in the `data.txt` file which contains 
+- The password is in the `data.txt` file which contains a bunch of non human-readable strings and other random characters.
+- The password is preceded by several '=' characters.
 
 ## Thought Process
 ##### First Attempts:
-1. [Document your initial approach]
-2. [Commands you tried first]
-3. [Any dead ends or mistakes]
+1. Used `strings` in `data.txt` and it outputs a mess of characters but the password was easily identified, but I wanted a more efficient result.
 ## Solution
-1. 
+1. Used `strings` command with the pipe operator `|` and used `grep =` to search for the '=' characters.
 
 ### Commands Used:
 ```bash
-# Step 1: [Explanation]
-command1
+# Step 1: [View directory contents]
+ls
 
-# Step 2: [Explanation]  
-command2
-
-# Final command that revealed the password:
-final_command
+# Step 2: [Find printable characters in file | searched for '=' character in file]  
+strings data.txt | grep =
 ```
 ### Next Level Password: 
 ```
-[PASSWORD HERE]
+FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 ```
 ## Screenshots
-
+![[level-9-completed.png]]
 
 ## Key Learnings
-##### New Commands/Concepts:
-- **`command1`**: [What it does and syntax]
-- **`command2`**: [What it does and syntax]
-- **Concept**: [Any new security/Linux concept learned]
-
-##### Linux/Security Applications:
-- [How this applies to real-world scenarios]
-- [Security implications of the vulnerabilities shown]
-- [Best practices highlighted by this challenge]
-
-##### Real-World Applications
-- [How might an attacker use these techniques?]
-- [How would you defend against this in production?]
-- [What tools/monitoring would detect this activity?]
-
-## Notes & Observations
-- [Any interesting observations]
-- [Alternative solutions you discovered]
-- [Connections to previous levels]
+##### New Commands:
+- `strings` - Used to find and print sequences of printable characters in files.
 
 ## References & Resources
-- [OverTheWire Level Page](http://overthewire.org/wargames/bandit/bandit{{LEVEL_NUMBER}}.html)
-- [Man pages consulted]
-- [External resources used]
+- https://overthewire.org/wargames/bandit/bandit10.html
