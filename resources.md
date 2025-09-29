@@ -6,5 +6,11 @@
 ##### Wikipedia - https://en.wikipedia.org/wiki/ROT13
 
 # Hex Dump
-
 ##### Wikipedia - https://en.wikipedia.org/wiki/Hex_dump
+
+# Localhost
+##### Wikipedia - https://en.wikipedia.org/wiki/Localhost
+
+# Ports
+##### Wikipedia - https://en.wikipedia.org/wiki/Port_(computer_networking)
+

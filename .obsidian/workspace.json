@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b0b2827a64699259",
+        "id": "052ae9d772cd15da",
         "type": "tabs",
         "children": [
           {
-            "id": "4acdf1da1e7ff5c6",
+            "id": "a4d3db73fd09a4f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "overthewire/bandit/levels/level-15.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "level-15"
             }
           }
         ]
@@ -87,7 +87,7 @@
       {
         "id": "86a939721da9349f",
         "type": "tabs",
-        "dimension": 70,
+        "dimension": 65.96218020022246,
         "children": [
           {
             "id": "224736f484897244",
@@ -167,7 +167,7 @@
       {
         "id": "b768bbf2d0c4d192",
         "type": "tabs",
-        "dimension": 30,
+        "dimension": 34.03781979977753,
         "children": [
           {
             "id": "b3910e44d31fa535",
@@ -198,9 +198,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4acdf1da1e7ff5c6",
+  "active": "a4d3db73fd09a4f9",
   "lastOpenFiles": [
+    "overthewire/bandit/levels/level-14.md",
+    "overthewire/bandit/levels/level-15.md",
+    "overthewire/bandit/doc-template.md",
+    "learning-log.md",
+    "resources.md",
+    "overthewire/bandit/assets/screenshots/level-14-completed 1.png",
+    "overthewire/bandit/levels/level-13.md",
     "overthewire/bandit/levels/level-12.md",
+    "overthewire/bandit/assets/screenshots/level-14-completed.png",
+    "overthewire/bandit/assets/screenshots/level13-sshkey.png",
+    "README.md",
     "overthewire/bandit/assets/screenshots/level12-completed.png",
     "overthewire/bandit/levels/level-11.md",
     "overthewire/bandit/levels/level-09.md",
@@ -212,22 +222,15 @@
     "overthewire/bandit/levels/level-06.md",
     "overthewire/bandit/levels/level-07.md",
     "overthewire/bandit/assets/screenshots/level-12-temp-dir.png",
-    "learning-log.md",
-    "README.md",
-    "resources.md",
     "overthewire/bandit/levels/level-00.md",
     "overthewire/bandit/levels/level-01.md",
     "overthewire/bandit/levels/level-02.md",
-    "overthewire/bandit/doc-template.md",
     "overthewire/bandit/assets/screenshots/level-11-completed.png",
     "overthewire/bandit/assets/screenshots/level-10-completed.png",
     "overthewire/bandit/assets/screenshots/level-9-completed.png",
     "overthewire/bandit/assets/screenshots/level-8-completed.png",
     "overthewire/bandit/assets/screenshots/level-7-completed.png",
-    "overthewire/bandit/assets/screenshots/level-6-completed.png",
-    "overthewire/bandit/assets/screenshots/passwd-in-file08.png",
     "overthewire/bandit/assets/screenshots/placeholder.md",
-    "overthewire/bandit/assets/screenshots/level-5-completed.png",
     "overthewire/bandit/levels/Connecting to Server.md",
     "overthewire/bandit/lab-setup/Ubuntu 24.04.3 LTS - VirtualBox.md",
     "overthewire/bandit/lab-setup"
